@@ -1,11 +1,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMicrophone, faCog } from '@fortawesome/react-fontawesome';
+import { faMicrophone, faCog } from '@fortawesome/free-solid-svg-icons';
 import { Navbar } from 'react-bootstrap';
 import { Link, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Details from './components/Details';
 import Home from './components/Home';
-import '../src/assets/css/App.css';
+import './assets/css/App.css';
 
 function App() {
   return (
