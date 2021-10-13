@@ -2,7 +2,7 @@ import { Row, Col } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import { countries } from '../redux/covidData/covidDatas';
-// import Africa from './globe-africa-solid.svg';
+import Africa from '../assets/images/world-image.svg';
 
 const Details = () => {
   const params = useParams();
@@ -38,7 +38,7 @@ const Details = () => {
     <div className="pt-3 bg-blue-light">
       <Row className="m-0">
         <Col xs={6} sm={6} md={6} className="d-flex justify-content-end">
-          <img src="africa" alt="Africa" height="150px" />
+          <img src={Africa} alt="Africa" height="150px" />
         </Col>
         <Col
           xs={6}
