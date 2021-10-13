@@ -60,7 +60,83 @@ const Details = () => {
         <h6 className="text-white fw-bold p-2 m-0">
           {`${country.name.toUpperCase()} CASES BREAKDOWN`}
         </h6>
+        <div>
+          <h2 className="stats-title">Country Breakdown 2020-10-10</h2>
+          <ul key={country.id} className="flex flex-dir stat-container">
+            <li className="navLink w-100 stats">
+              Today&apos;s confirmed:
+              {country.today_confirmed}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s deaths:
+              {country.today_deaths}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s new recovered:
+              {country.today_new_recovered}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s new confirmed:
+              {country.today_new_confirmed}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s new deaths:
+              {country.today_new_deaths}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s new open cases:
+              {country.today_new_open_cases}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s new recovered:
+              {country.today_open_cases}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s recovered:
+              {country.today_recovered}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s confirmed:
+              {country.today_confirmed}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s vs yesterday&apos;s confirmed:
+              {country.today_vs_yesterday_confirmed}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s vs yesterday&apos;s deaths:
+              {country.today_vs_yesterday_deaths}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s vs yesterday&apos;s open cases:
+              {country.today_vs_yesterday_open_cases}
+            </li>
+            <li className="navLink w-100 stats">
+              Today&apos;s vs yesterday&apos;s recovered:
+              {country.today_vs_yesterday_recovered}
+            </li>
+            <li className="navLink w-100 stats">
+              Yesterday&apos;s confirmed:
+              {country.yesterday_confirmed}
+            </li>
+            <li className="navLink w-100 stats">
+              Yesterday&apos;s deaths:
+              {country.yesterday_deaths}
+            </li>
+            <li className="navLink w-100 stats">
+              Yesterday&apos;s open cases:
+              {country.yesterday_open_cases}
+            </li>
+            <li className="navLink w-100 stats">
+              Yesterday&apos;s recovered:
+              {country.yesterday_recovered}
+            </li>
+          </ul>
+        </div>
       </Row>
+      <h6 className="text-white fw-bold p-2 m-0">
+        {`${country.name.toUpperCase()} CASES BREAKDOWN BY REGION`}
+      </h6>
       {states}
     </div>
   );
