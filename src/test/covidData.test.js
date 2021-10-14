@@ -19,7 +19,7 @@ test("should handle a country's data being added to the store", () => {
       name: 'South Africa',
       id: 'SouthAfrica',
       total_confirmed: 50,
-    })
+    }),
   );
 
   expect(newState).toEqual({

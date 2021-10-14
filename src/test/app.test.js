@@ -10,7 +10,7 @@ test('Should display the header', () => {
       <Router>
         <App />
       </Router>
-    </Provider>
+    </Provider>,
   );
   const headerText = screen.getByText(/COVID-19 CASE STATS/i);
   expect(headerText).toBeInTheDocument();
