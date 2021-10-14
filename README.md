@@ -26,12 +26,15 @@ one page for the item details; the detail page of country case break down.
 - Git and Github flow
 - VSCode
 - Jest
+- Netlify
 - Linter Checkers
 
-<!-- ## Deployment Live Demo
+## Deployment Live Demo
 
- - Deployed with gh-pages
-  - [Live Demo](https://dansam5k.github.io/Webflix-Index/index.html) -->
+ - Deployed with on Netlify
+  - [Live Demo](https://cocky-williams-122084.netlify.app/)
+## Video Presentation
+ - [loom video](https://loom.com/share/f5b7840114e645999084a901c03c2eca) 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -70,7 +73,7 @@ Give a ⭐️ if you like this project!
 
 
 ## Acknowledgments
-
+- Original project design idea by [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio) 🙌
 - Hat tip to anyone whose code was used 🔰
 - Inspiration 💘
 - Microverse program ⚡
