@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-pink-dark {
+  background: #fb5092;
+}
+
+.bg-pink-light {
+  background-color: #d6608e;
+}
+
+body {
+  background-color: #cf4278;
+}
+
+.no-shadow:focus {
+  box-shadow: none;
+}
+
+.input-group-text {
+  padding: 10px;
+}
